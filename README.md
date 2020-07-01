@@ -1,10 +1,12 @@
-"# couchbasedemo" 
+# Couchbase Demo 
 
 This is a demo of a data streaming application using couchbase, java and highcharts
 
 It's running under windows 10.
 
-Open a cmd console, and follow the steps to run each batch.
+Download this project in a directory of your choice
+
+Open a cmd console in your directory, and follow the steps to run each batch.
 
 
 ## 1) Tool Install
@@ -20,13 +22,13 @@ https://www.couchbase.com/downloads/fr/start-today
 When installing couchbase, you will be ask for a user password for the administrator account
 
 please change it into this file:  
-1_login.bat
+_1_login.bat_
 
 ## 2) Compilation 
 
 Extract this repo in a directory of your choice
 
-Run: 2_compile.bat
+Run: _2_compile.bat_
 
 ## 3) Transform Files
 
@@ -34,7 +36,7 @@ We will decompose the data/search.csv file in two parts, a csv and a json file.
 
 This file is small to facilitate the copy of the repo, it could be replaced by the original big file   
 
-Run: 3_data.bat
+Run: _3_data.bat_
 
 ## 4) Prepare buckets
 
@@ -45,7 +47,7 @@ We assume that couchbase is installed in this directory:
 SET COUCHBASE_HOME=C:\Progra~1\Couchbase\Server\bin
 If it's not the case fix it in the scripts (3)+(4)
 
-Run: 4_buckets.bat
+Run: _4_buckets.bat_
 
 ## 5) Eventing
 
@@ -64,7 +66,7 @@ click deploy function
 
 ## 6) import csv & json
 
-Run: 6_import.bat
+Run: _6_import.bat_
 
 It will produce data events in the system, and feed the buckets.
 
@@ -78,7 +80,7 @@ click on execute
 
 In this part we read the buckets to transform the data into a highcharts html document.
 
-Run: 8_charts.bat
+Run: _8_charts.bat_
 
 Once it's done open \highcharts\country_device.html
 
