@@ -22,13 +22,13 @@ https://www.couchbase.com/downloads/fr/start-today
 When installing couchbase, you will be ask for a user password for the administrator account
 
 please change it into this file:  
-_1_login.bat_
+**_1_login.bat_**
 
 ## 2) Compilation 
 
 Extract this repo in a directory of your choice
 
-Run: _2_compile.bat_
+Run: **_2_compile.bat_**
 
 ## 3) Transform Files
 
@@ -36,7 +36,7 @@ We will decompose the data/search.csv file in two parts, a csv and a json file.
 
 This file is small to facilitate the copy of the repo, it could be replaced by the original big file   
 
-Run: _3_data.bat_
+Run: **_3_data.bat_**
 
 ## 4) Prepare buckets
 
@@ -47,7 +47,7 @@ We assume that couchbase is installed in this directory:
 SET COUCHBASE_HOME=C:\Progra~1\Couchbase\Server\bin
 If it's not the case fix it in the scripts (3)+(4)
 
-Run: _4_buckets.bat_
+Run: **_4_buckets.bat_**
 
 ## 5) Eventing
 
@@ -56,7 +56,7 @@ and produce and store it in another bucket of data: emaildata
 
 click on eventing (left bottom)  http://localhost:8091/ui/index.html#!/eventing/summary
 click on import (righttop)
-choose /scripts/5_new_email.json
+choose **_/scripts/5_new_email.json_**
 click next add code
 click on eventing (left bottom)
 click on new_email new function
@@ -66,7 +66,7 @@ click deploy function
 
 ## 6) import csv & json
 
-Run: _6_import.bat_
+Run: **_6_import.bat_**
 
 It will produce data events in the system, and feed the buckets.
 
@@ -80,7 +80,7 @@ click on execute
 
 In this part we read the buckets to transform the data into a highcharts html document.
 
-Run: _8_charts.bat_
+Run: **_8_charts.bat_**
 
 Once it's done open \highcharts\country_device.html
 
