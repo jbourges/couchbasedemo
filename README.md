@@ -49,7 +49,7 @@ Click on each line to expand selection then delete + confirm delete bucket
 
 We assume that couchbase is installed in this directory:  
 **_SET COUCHBASE_HOME=C:\Progra~1\Couchbase\Server\bin_**  
-If it's not the case fix it in the scripts (3)+(4)  
+If it's not the case fix it in the scripts (4)+(6)  
 
 Run: [4_buckets.bat](4_buckets.bat)  
 
