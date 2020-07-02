@@ -27,7 +27,8 @@ please change it into this file:
 
 ## 2) Compilation 
 
-Extract this repo in a directory of your choice, and compile the classes
+In this step we will compile the java classes:
+
 
 Run: [2_compile.bat](2_compile.bat)
 

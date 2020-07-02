@@ -5,7 +5,14 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
- 
+
+/**
+ * This class can parse an input text file and replace all occurences of a string by another one
+ *
+ * java -cp coveotest.jar coveotest.TextFileFix <my input file> <string_to_search> <string_replacement>
+ * example : java coveotest.TextFileFix "./highcharts/country_device_template.html" "##data##" "{ x: 1,  y: 5.58}"
+ *
+ */  
 public class TextFileFix
 {   
     static void modifyFile(String filePath, String oldString, String newString)
