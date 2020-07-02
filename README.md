@@ -76,7 +76,7 @@ Run: [6_import.bat](6_import.bat)
 It will produce data events in the system, and feed the buckets.
 
 
-## 7) Test a query
+## 7) Test a query  
 
 click on query http://localhost:8091/ui/index.html#!/query/workbench  
 input the query **_select distinct email, domain from  emaildata where email is not null_**  
