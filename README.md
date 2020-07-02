@@ -22,7 +22,7 @@ https://www.couchbase.com/downloads/fr/start-today
 When installing couchbase, you will be ask for a user password for the administrator account
 
 please change it into this file:  
-**_1_login.bat_**
+[1_login.bat](1_login.bat)
 
 ## 2) Compilation 
 
