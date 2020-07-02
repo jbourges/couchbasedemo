@@ -89,7 +89,7 @@ In this part we read the buckets to transform the data into a highcharts html do
 
 Run: [8_charts.bat](8_charts.bat)
 
-Once it's done open [highcharts/country_device.html](highcharts/country_device.html)
+Once it's done, if chrome is installed it will open [highcharts/country_device.html](highcharts/country_device.html)
 
 You will get a dynamic chart with clickable categories
 
